@@ -30,7 +30,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
     let { image_url } = req.query;
     //if no parameter is present
     if (!image_url ) {
-      return res.status(400).send('URL is required as parameter.');
+      return res.status(422).send('URL is required as parameter.');
     }
     //if image present
     let filteredPath = await filterImageFromURL(image_url);
