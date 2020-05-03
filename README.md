@@ -1,14 +1,15 @@
 # Alex Voets Submission Details
 
+GitHub: https://github.com/A3ex1984/AlexVoets-image-filter-starter-code
 EB: http://udagram-voets-dev-dev.us-west-2.elasticbeanstalk.com/
 
 Check - At least two branches (dev and master)
 Check - Starting server with npm run dev runs local instance of the server with no errors
-- The stubbed @TODO1 endpoint in src/server.ts is completed and accepts valid requests
-- Successful responses have a 200 Code, at least one error code for caught errors (i.e. 422)
+Check - The stubbed @TODO1 endpoint in src/server.ts is completed and accepts valid requests
+Check - Successful responses have a 200 Code, at least one error code for caught errors (i.e. 422)
 Check - Project deployed using the AWS Elastic Beanstalk CLI eb init, eb create, eb deploy
 Check - Include screenshot in the deployment_screenshot directory
-- An endpoint URL for a running elastic beanstalk deployment (EB_URL) has been submitted along with the project submission. The endpoint responds to vavlid GET requests
+Check - An endpoint URL for a running elastic beanstalk deployment (EB_URL) has been submitted along with the project submission. The endpoint responds to vavlid GET requests
 
 
 # Udagram Image Filtering Microservice
