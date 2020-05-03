@@ -1,11 +1,13 @@
 # Alex Voets Submission Details
 
+EB: http://udagram-voets-dev-dev.us-west-2.elasticbeanstalk.com/
+
 Check - At least two branches (dev and master)
-- Starting server with npm run dev runs local instance of the server with no errors
+Check - Starting server with npm run dev runs local instance of the server with no errors
 - The stubbed @TODO1 endpoint in src/server.ts is completed and accepts valid requests
 - Successful responses have a 200 Code, at least one error code for caught errors (i.e. 422)
-- Project deployed using the AWS Elastic Beanstalk CLI eb init, eb create, eb deploy
-- Include screenshot in the deployment_screenshot directory
+Check - Project deployed using the AWS Elastic Beanstalk CLI eb init, eb create, eb deploy
+Check - Include screenshot in the deployment_screenshot directory
 - An endpoint URL for a running elastic beanstalk deployment (EB_URL) has been submitted along with the project submission. The endpoint responds to vavlid GET requests
 
 
